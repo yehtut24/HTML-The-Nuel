@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+{box-sizing: border-box;}
+body{background-color: Silver ;}
+h1{color:BLack; text-align: center ;}
+h2{color:Red;text-align: left ;}
+p{ font-family: oblique;
+font-size:30px;}
+div {background-color: lightgrey;
+  width: 300px;
+  border: 25px Soild Red;
+  padding: 25px;
+  margin: 25px;}
+
+topnav {overflow: hidden;
+  background-color: #333;}
+
+</style>
+</head>
+<title>The Home of UK University Esports</title>
+</Head> 
+<script>
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<body>
+<h1> <strong><u>The Nuel Republic of gamers</u></strong></h1>
+<br>
+<h2><em>Who are we ?</em></h2>
+<br>
+
+<p><em>As students we were frustrated with the lack of opportunities to compete in esports activities and meet others who shared our passion. So in 2010 we set out to change this by creating the first ever National University Esports League, since then we’ve seen thousands of students represent their university and supported them to form societies and create events around esports.
+
+Our team consists of former players and society committee members who are passionate about helping to grow the student esports scene within the UK, over the years we’ve also helped a number of staff members transition from volunteers to professionals with full time careers within esports.
+
+Below you’ll find out what we’re doing and how you can get involved with helping to grow a student organisation that has pioneered esports at universities and is respected around the world by the most important companies within esports.</p></em>
+
+<h2><em>Our Value</em></h2>
+<br>
+<p><em>The NUEL is here to benefit students who enjoy esports or want to make a difference to help grow the industry. To achieve this we believe:
+
+Students, regardless of ability or experience, should have the opportunities to participate and contribute
+Students will create great things if you provide them with the right tools, knowledge and support
+Creating memorable experiences whilst at university will inspire students to pursue esports further after graduation</p></em>
+
+
+
+
+<h1><a href="https://thenuel.com/"> The Nule Republic of gamers</a></h1>
+
+<h2><em>Contents</h2></em>
+
+<ul>
+
+<div><li> Overwatch </li> 
+<li> CS>GO </li>
+<li> HearthStone </li>
+<li> League Legends </li>
+<li> PUBG </li>
+<li> Siege </li></div>
+
+</ul>
+
+<img src = "C:\Users\21373109\Desktop\download.jpg">
+
+<br>
+<a href = mailto:john@example.com>john</a>
